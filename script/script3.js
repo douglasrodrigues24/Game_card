@@ -1,13 +1,13 @@
-let music_fim = new Audio('../audio/music_end_good.mp3');
+let music_fim = new Audio('audio/music_end_good.mp3');
 function the_end(){
     setTimeout(()=>{
- const depos = new Audio('../audio/Depoimento_jailson.mp3');
+ const depos = new Audio('audio/Depoimento_jailson.mp3');
  depos.play();
  setTimeout(()=>{
-    const depos1 = new Audio('../audio/ate.mp3');
+    const depos1 = new Audio('audio/ate.mp3');
     depos1.play();
     setTimeout(()=>{
-        const depos2 = new Audio('../audio/Climao.mp3');
+        const depos2 = new Audio('audio/Climao.mp3');
         depos2.play();
                   
            },12000);   
@@ -17,7 +17,7 @@ function the_end(){
         document.getElementById('continue').style.display='none';
     },800)
 document.getElementById('continue').classList.add('sumir_btn');
-music_fim = new Audio('../audio/music_end_good.mp3');
+music_fim = new Audio('audio/music_end_good.mp3');
 music_fim.loop = true;
 music_fim.play();
 document.getElementById('launcher_rocket').style.display='block';
@@ -50,10 +50,10 @@ function init_video(){
     document.getElementById('btn_video').style.display = 'none'
     document.getElementById('body').classList.remove('anim_colors');
     document.getElementById('explode_final').style.display = 'block';
-    let audii = new Audio('../audio/music_explode_bad.mp3');
+    let audii = new Audio('audio/music_explode_bad.mp3');
     audii.play();
     setTimeout(()=>{
-        window.location.href = "../index_saida.html"
+        window.location.href = "index_saida.html"
     },4000);
     });
 }
