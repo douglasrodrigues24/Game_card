@@ -208,7 +208,7 @@ function verificarVitoria() { // verificar vitoriaaaa
   
    async function the_end_bed(){
     if(tempo_esgotado === true){
-        const music_bad = new Audio("../audio/music_bad.mp3")
+        const music_bad = new Audio("audio/music_bad.mp3")
         
         bossA.pause();
         const sumir1= document.getElementById('final_button');
@@ -218,12 +218,12 @@ function verificarVitoria() { // verificar vitoriaaaa
        document.getElementById('btn_fim').style.display='none';
     
         setTimeout(()=>{
-            const alahu = new Audio('../audio/alahu.mp3');
+            const alahu = new Audio('audio/alahu.mp3');
             alahu.play();
         },100)
         setTimeout(()=>{
          const gabriel_bosS = document.getElementById('gabriel_bost');
-           const explodee = new Audio('../audio/music_explode_bad.mp3');
+           const explodee = new Audio('audio/music_explode_bad.mp3');
            explodee.play();
           gabriel_bosS.style.display = 'none';
           document.getElementById('launcher_rocket').style.display = "none";
@@ -331,7 +331,7 @@ function verificarVitoria() { // verificar vitoriaaaa
 
     }
     setTimeout(()=>{
-        const explode = new Audio('../audio/music_explode_bad.mp3');
+        const explode = new Audio('audio/music_explode_bad.mp3');
         explode.play();
         document.getElementById('gabriel_bost').style.display = 'none';
         document.getElementById('nav_explode2').style.display = 'block';
