@@ -233,7 +233,7 @@ function verificarVitoria() { // verificar vitoriaaaa
           // colocar o pos explosão aqui do gabriel
           setTimeout(()=>{
             
-            window.location.replace('../index2.html');
+            window.location.replace('index2.html');
             
 
           },6500);
@@ -348,7 +348,7 @@ function verificarVitoria() { // verificar vitoriaaaa
                 document.getElementById('launcher_rocket').style.display ='none';
 
                 setTimeout(()=>{
-                    window.location.replace('../index3.html');
+                    window.location.replace('index3.html');
                 },1000);
             },4000);
         });
