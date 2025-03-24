@@ -1,6 +1,6 @@
 let timer = 0;
 let contador_acerto = 0;
-let contadorr = 17;
+let contadorr = 27;
 let opacidade = 0;
 let score = 0;
 let contador_de_invocamento = 0;
